@@ -1,0 +1,82 @@
+{
+  "groups": [
+    {
+      "label": "Portais",
+      "projects": [
+        {
+          "id": "portal-pmf",
+          "title": "Portal PMF",
+          "blurb": "Portal institucional em produção da Prefeitura Municipal de Florianópolis.",
+          "stack": "PHP",
+          "repos": ["portalPMF"]
+        },
+        {
+          "id": "novo-portal-2026",
+          "title": "Novo Portal 2026",
+          "blurb": "Novo portal da Prefeitura Municipal de Florianópolis, em desenvolvimento.",
+          "badge": "em desenvolvimento",
+          "repos": ["novoPortal2026"]
+        },
+        {
+          "id": "ilha-do-campeche",
+          "title": "Ilha do Campeche",
+          "blurb": "Portal da Ilha do Campeche, com área pública e painel administrativo.",
+          "stack": "React, Node",
+          "repos": ["newilha"]
+        }
+      ]
+    },
+    {
+      "label": "Sistemas",
+      "projects": [
+        {
+          "id": "minhoca-na-cabeca",
+          "title": "Minhoca na Cabeça",
+          "blurb": "Sistema do Minhoca na Cabeça para aulas, eventos, alunos, horários e agendamentos.",
+          "stack": "React, Node",
+          "repos": ["minhocaCabeca", "backMinhoca"],
+          "note": "Frontend em minhocaCabeca. Backend em backMinhoca."
+        },
+        {
+          "id": "floram",
+          "title": "FLORAM",
+          "blurb": "Sistema de gestão de recursos e projetos da FLORAM.",
+          "stack": "Next.js, Fastify",
+          "repos": ["floran-web"]
+        },
+        {
+          "id": "casa-civil",
+          "title": "Casa Civil",
+          "blurb": "Gestão da Casa Civil, com demandas legislativas, ofícios e indicações.",
+          "repos": ["casacivil"]
+        },
+        {
+          "id": "defesa-civil",
+          "title": "Defesa Civil",
+          "blurb": "Sistema de gestão de chamados da Defesa Civil Municipal.",
+          "stack": "Laravel, React",
+          "repos": ["defesacivil-web"]
+        },
+        {
+          "id": "galsc",
+          "title": "GALSC",
+          "blurb": "Autorização de sepultamento e gestão dos cemitérios municipais, na Central de Atendimento de Óbitos.",
+          "repos": ["GALSC"]
+        },
+        {
+          "id": "eventos-de-turismo",
+          "title": "Eventos de Turismo",
+          "blurb": "Gestão e tramitação de eventos da Secretaria Municipal de Turismo de Florianópolis.",
+          "repos": ["Eventosturismo"]
+        },
+        {
+          "id": "integra",
+          "title": "ÍNTEGRA",
+          "badgeLabel": "INTEGRA",
+          "blurb": "Plataforma de capacitação dos servidores da PMF, com cursos, progresso e certificados.",
+          "repos": ["integra"]
+        }
+      ]
+    }
+  ]
+}
